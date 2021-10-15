@@ -26,3 +26,25 @@ body{
 header{
     height: 100px;
 }
+
+/* Layout Header */
+.col-header-left, .col-header-right{
+    width: 50%;
+}
+
+.col-header-left{
+    text-align: left;
+}
+
+.col-header-right{
+    text-align: right;
+}
+
+/* Ul Header */
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+}
