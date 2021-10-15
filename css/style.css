@@ -120,18 +120,21 @@ header .logo{
 /* Struttura colonne jumbo */
 .col-jumbo-left{
     width: 35%;
-    padding: 40px 0 0;
+    padding: 55px 0 80px;
 }
 
 .col-jumbo-right{
     width: 60%;
     margin-left: 5%;
-    padding: 40px 0 0;
+    padding: 55px 0 80px;
+    position: relative;
 }
 
 /* Proprietà testo */
 .jumbotron-container p{
     margin-bottom: 30px;
+    padding-right: 5px;
+    line-height: 1.7;
 }
 
 .jumbotron-container a{
@@ -149,10 +152,13 @@ header .logo{
 }
 
 .jumbotron-container .arrow{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* Immagine jumbo proprietà*/
 .img-jumbo{
-    position: relative;
+ position: absolute;
+ top: 50px;
+ left: 0;
+ height: 460px;
 }
