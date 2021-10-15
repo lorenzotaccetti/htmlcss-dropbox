@@ -1,9 +1,28 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
+/* BODY */
 body{
     font-family: 'Open Sans',sans-serif;
+}
+
+/* Layout Float */
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+header{
+    height: 100px;
 }
