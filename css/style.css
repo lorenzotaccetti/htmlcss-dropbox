@@ -55,6 +55,7 @@ header{
     left: 0;
     width: 100%;
     background-color: white;
+    z-index: 2;
 }
 
 /* Layout Header */
@@ -163,6 +164,7 @@ header .logo{
  top: 50px;
  left: 0;
  height: 460px;
+ z-index: 1;
 }
 
 /* SECTION */
@@ -198,3 +200,42 @@ section h2{
     border: 5px solid #0160ff;
 }
 
+/* Layout colonne business */
+.col-business{
+    width: calc(100% / 3);
+    margin-top: 30px;
+    border: 1px solid #d2d2d5;
+}
+
+.dropbox-business .offerta-business{
+    border-bottom: 1px solid #d2d2d5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.dropbox-business .contenuto-business{
+    padding: 20px 10px;
+}
+
+.dropbox-business .prezzo{
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.dropbox-business .periodicità{
+    color: #75838f;
+}
+
+.dropbox-business .promo::after {
+	display: block;
+	content: '';
+	width: 50px;
+	height: 1px;
+	background-color: #d2d2d5;
+	margin: 10px 0;
+	margin-bottom: 10px;
+}
+
+.dropbox-business .check{
+    color: #0562ff;
+}
