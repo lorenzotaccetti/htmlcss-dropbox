@@ -202,9 +202,21 @@ section h2{
 
 /* Layout colonne business */
 .col-business{
-    width: calc(100% / 3);
+    width: 30%;
     margin-top: 30px;
     border: 1px solid #d2d2d5;
+    height: 1100px;
+}
+
+.dropbox-business .col-padded{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* Proprietà elementi dentro la colonna */
+
+.padd{
+    padding: 20px 0;
 }
 
 .dropbox-business .offerta-business{
@@ -214,16 +226,43 @@ section h2{
 }
 
 .dropbox-business .contenuto-business{
-    padding: 20px 10px;
+    padding: 20px 20px;
+}
+
+.contenuto-business h3{
+    font-size: 25px;
 }
 
 .dropbox-business .prezzo{
-    font-weight: 600;
-    padding: 15px 0;
+    font-weight: 700;
+    padding: 18px 0 10px;
 }
 
 .dropbox-business .periodicità{
     color: #75838f;
+    font-size: 14px;
+}
+
+.dropbox-business .font-margin{
+    font-size: 14px;
+    padding: 20px 0 0;
+}
+
+.dropbox-business .btn-center{
+    padding: 30px 0 0;
+}
+
+.dropbox-business .btn-business{
+    width: 100%;
+    text-align: center;
+}
+
+.dropbox-business .link-business{
+    color: #176aff;
+}
+
+.dropbox-business .promo{
+    font-size: 14px;
 }
 
 .dropbox-business .promo::after {
@@ -232,10 +271,49 @@ section h2{
 	width: 50px;
 	height: 1px;
 	background-color: #d2d2d5;
-	margin: 10px 0;
-	margin-bottom: 10px;
+	margin: 30px 0 0;
+}
+
+.dropbox-business ul{
+    list-style-type: none;
 }
 
 .dropbox-business .check{
     color: #0562ff;
+}
+
+.dropbox-business ul li{
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+/* Rettangolo sotto le colonne */
+.dropbox-business .ultima-offerta{
+    margin-top: 50px;
+    border: 1px solid #d2d2d5;
+}
+
+.dropbox-business .contenuto-ultima-offerta{
+    padding: 20px;
+    position: relative;
+}
+
+.dropbox-business .contenuto-ultima-offerta h3{
+    padding: 0 0 15px;
+    font-size: 25px;
+}
+
+.dropbox-business .contenuto-ultima-offerta .ufficio{
+    font-weight: 600;
+    padding: 0 0 15px;
+}
+
+.dropbox-business .contenuto-ultima-offerta .soluzioni{
+    font-size: 14px;
+}
+
+.dropbox-business .contenuto-ultima-offerta .btn-ultima-offerta{
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
