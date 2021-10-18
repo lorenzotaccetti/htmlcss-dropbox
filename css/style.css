@@ -371,14 +371,14 @@ section h2{
 /* Dropbox Team */
 .dropbox-team .team-container{
     width: 60%;
-    margin: 0 0 50px 300px;
+    margin: auto;
 }
 
 .dropbox-team .team-container h2{
     padding-right: 190px;
 }
 .dropbox-team .team-container p{
-    padding: 20px 0; 
+    padding: 25px 0; 
 }
 
 .dropbox-team .link-clienti{
@@ -421,7 +421,7 @@ section h2{
 }
 
 .dropbox-team .col-text-content img{
-    width: 100px;
+    width: 120px;
     padding-top: 40px
 }
 
