@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid lightseagreen; */
 }
 
 /* BODY */
@@ -179,7 +178,7 @@ header .logo{
 
 /* SECTION */
 section{
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 /* Section piano Dropbox */
@@ -372,12 +371,21 @@ section h2{
 /* Dropbox Team */
 .dropbox-team .team-container{
     width: 60%;
-    margin: 0 0 30px 300px;
+    margin: 0 0 50px 300px;
+}
+
+.dropbox-team .team-container h2{
+    padding-right: 190px;
+}
+.dropbox-team .team-container p{
+    padding: 20px 0; 
 }
 
 .dropbox-team .link-clienti{
     color: #176aff
 }
+
+/* Layout */
 .dropbox-team .row{
     width: 100%;
 }
@@ -388,6 +396,8 @@ section h2{
 
 .dropbox-team .col-text{
     width: calc(100% - 800px);
+    background-color: #f5f5f5;
+    height: 400px;
 }
 
 .dropbox-team .box{
@@ -395,11 +405,137 @@ section h2{
     height: 200px;
 }
 
+/* Proprietà col-text */
 .dropbox-team .linea-designit::after{
     display: block;
 	content: '';
 	width: 50px;
 	height: 1px;
 	background-color: #d2d2d5;
-	margin: 30px 0 0;
+	margin: 20px 0 0;
+}
+
+.dropbox-team .col-text-content{
+    width: 80%;
+    margin: auto;
+}
+
+.dropbox-team .col-text-content img{
+    padding: 50px 500px 0 0;
+}
+
+.dropbox-team .col-text-content p{
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+
+/* Proprietà col-box */
+.dropbox-team .svg-common{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    filter: invert(1);
+    padding: 50px 40px;
+}
+
+.dropbox-team .box-designit{
+    background-color: #a2d39b;
+}
+
+.dropbox-team .box-florida{
+    background-color: #0093ce; 
+}
+.dropbox-team .florida{
+    padding: 85px 40px;
+}
+
+.dropbox-team .box-arizona{
+    background-color: #61092b;;
+}
+
+.dropbox-team .box-topps{
+    background-color: #ff1b1c;
+}
+
+.dropbox-team .box-bicycle{
+    background-color: #d4001f;
+}
+
+.dropbox-team .box-planet{
+    background-color: #0e2381;
+}
+
+.dropbox-team .box-hearst{
+    background-color: #b3d0e7;
+}
+
+
+.dropbox-team .box-channel{
+    background-color: #ffd72f;
+}
+
+/* Azienda */
+.dropbox-team .azienda{
+    background-color: #b3d0e7;
+    width: 100%;
+}
+
+.dropbox-team .col-azienda-text, .col-azienda-button{
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+}
+
+.dropbox-team .col-azienda-text h2{
+    color: #61092b;
+    font-size: 30px;
+}    
+
+.dropbox-team .col-azienda-button .btn-azienda{
+    display: inline-block;
+    background-color: white;
+    color: #313131;
+    padding: 5px 50px;
+}
+
+/* Dropbox domande */
+.dropbox-domande h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.dropbox-domande .row{
+    border-top: 1px solid #eaeaeb;
+}
+
+.dropbox-domande .last-row{
+    border-top: 1px solid #eaeaeb;
+    border-bottom: 1px solid #eaeaeb;
+}
+
+.dropbox-domande .col-domande{
+    width: 80%;
+    padding: 20px 0;
+}
+
+.dropbox-domande .col-freccia{
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.dropbox-domande .col-domande p{
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    margin-top: 150px;
+    height: 600px;
 }
