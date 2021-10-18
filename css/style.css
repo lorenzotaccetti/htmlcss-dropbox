@@ -47,19 +47,25 @@ img{
     color: #202020;
     border: 1px solid #202020;
 }
+
+.btn-font{
+    font-size: 14px;
+}
+
 .btn:hover{
     filter: brightness(150%);
 }
 
 /* HEADER */
 header{
-    height: 70px;
+    height: 72px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: white;
     z-index: 2;
+    border-bottom: 1px solid lightgray;
 }
 
 /* Layout Header */
@@ -218,7 +224,6 @@ section h2{
 }
 
 /* Proprietà elementi dentro la colonna */
-
 .padd{
     padding: 20px 0 0;
 }
@@ -245,11 +250,6 @@ section h2{
 .dropbox-business .periodicità{
     color: #75838f;
     font-size: 14px;
-}
-
-.dropbox-business .font-margin{
-    font-size: 14px;
-    padding: 20px 0 0;
 }
 
 .dropbox-business .btn-center{
