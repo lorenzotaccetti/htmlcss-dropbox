@@ -537,5 +537,64 @@ section h2{
 footer{
     background-color: black;
     margin-top: 150px;
-    height: 600px;
+}
+
+.footer-container{
+    width: 70%;
+    margin: auto;
+}
+
+/* Layout colonne footer */
+.footer-container .col-footer{
+    width: 20%;
+    padding-top: 100px;
+}
+
+/* Proprietà testo colonne */
+footer h5{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    padding-bottom: 10px;
+}
+
+footer ul li a{
+    color: #e2e2e2;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer .footer-colonne::after{
+    display: block;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background-color: #838383;
+	margin: 75px 0 0;
+}
+
+footer .lingua{
+    padding: 40px 0;
+}
+
+footer .lingua .globo{
+    color: #999999;
+}
+
+footer .lingua span{
+    color: #636363;
+    font-size: 13px;
+}
+
+footer .lingua .up-arrow{
+    color: #636363;
+    vertical-align: middle;
+    font-size: 13px;
 }
