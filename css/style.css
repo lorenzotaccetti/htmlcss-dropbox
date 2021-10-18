@@ -345,3 +345,26 @@ section h2{
     line-height: 1.7;
     padding-bottom: 20px;
 }
+
+/* Dropbox Operations */
+.dropbox-operations .col-operations{
+    width: 30%;
+}
+
+.dropbox-operations .col-padded{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dropbox-operations .row{
+    margin: 30px 0;
+}
+
+.dropbox-operations .text-underline{
+    text-decoration: underline;
+}
+
+.dropbox-operations p{
+    padding-top: 15px;
+    font-size: 14px;
+}
