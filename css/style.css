@@ -52,7 +52,7 @@ img{
 }
 
 .btn:hover{
-    filter: brightness(150%);
+    filter: saturate(50%);
 }
 
 /* HEADER */
