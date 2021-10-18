@@ -385,7 +385,7 @@ section h2{
     color: #176aff
 }
 
-/* Layout */
+/* Layout dropbox team */
 .dropbox-team .row{
     width: 100%;
 }
@@ -421,7 +421,8 @@ section h2{
 }
 
 .dropbox-team .col-text-content img{
-    padding: 50px 500px 0 0;
+    width: 100px;
+    padding-top: 40px
 }
 
 .dropbox-team .col-text-content p{
@@ -580,6 +581,7 @@ footer .footer-colonne::after{
 	margin: 75px 0 0;
 }
 
+/* Parte finale footer */
 footer .lingua{
     padding: 40px 0;
 }
