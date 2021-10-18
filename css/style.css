@@ -43,6 +43,10 @@ img{
     color: white;
 }
 
+.btn-white{
+    color: #202020;
+    border: 1px solid #202020;
+}
 .btn:hover{
     filter: brightness(150%);
 }
@@ -205,7 +209,7 @@ section h2{
     width: 30%;
     margin-top: 30px;
     border: 1px solid #d2d2d5;
-    height: 1100px;
+    height: 1000px;
 }
 
 .dropbox-business .col-padded{
@@ -216,7 +220,7 @@ section h2{
 /* Proprietà elementi dentro la colonna */
 
 .padd{
-    padding: 20px 0;
+    padding: 20px 0 0;
 }
 
 .dropbox-business .offerta-business{
@@ -274,17 +278,21 @@ section h2{
 	margin: 30px 0 0;
 }
 
-.dropbox-business ul{
-    list-style-type: none;
-}
-
 .dropbox-business .check{
     color: #0562ff;
 }
 
-.dropbox-business ul li{
-    padding: 15px 0;
+.dropbox-business .col-icone{
+    width: 10%;
     font-size: 14px;
+    padding: 15px 5px 0;
+    text-align: right;
+}
+
+.dropbox-business .col-item{
+    width: 90%;
+    font-size: 14px;
+    padding: 15px 0;
 }
 
 /* Rettangolo sotto le colonne */
@@ -316,4 +324,24 @@ section h2{
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+/* Dropbox Partner */
+.dropbox-partner .col-foto, .dropbox-partner .col-partner-text{
+    width: 50%;
+}
+
+.dropbox-partner .col-partner-text{
+    padding: 35px;
+}
+
+.dropbox-partner .col-partner-text h3{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.dropbox-partner .col-partner-text p{
+    font-size: 15px;
+    line-height: 1.7;
+    padding-bottom: 20px;
 }
