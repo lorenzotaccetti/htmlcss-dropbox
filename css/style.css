@@ -294,6 +294,10 @@ section h2{
     padding: 15px 0;
 }
 
+.dropbox-business h4{
+    padding-bottom: 20px;
+}
+
 /* Rettangolo sotto le colonne */
 .dropbox-business .ultima-offerta{
     margin-top: 50px;
