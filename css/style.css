@@ -600,3 +600,7 @@ footer .lingua .up-arrow{
     vertical-align: middle;
     font-size: 13px;
 }
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
